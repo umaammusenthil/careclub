@@ -1,0 +1,289 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+#header{
+	height: 80px;
+	width:auto;
+	max-width:100%;
+	background-color: #187bcd;
+	border: 2px solid ;
+	margin: 10px
+}
+
+#licon{
+	margin:10px;
+	width:3%;
+	float: left;
+	//background-color: red;
+}
+
+#ltopic h1{
+	float:left;
+	padding: 20px;
+	//background-color: brown;
+	text-align: center;
+	margin-right: 90px;
+	font-family: serif;
+	font-style: normal;	
+	color: white;
+}
+
+#rheader{
+	//background-color: red;
+	padding: 30px;
+	margin-left: 690px;
+}
+
+#rheader a:hover{
+	background: #FF8303;
+	color:black;
+
+}
+
+.about{
+	text-decoration: none;
+	//background-color: yellow;
+	display: flex;
+	float: left;
+	padding: 2px 20px;
+	font-family:sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-transform:capitalize;
+	color: white;
+	font-size: 16px;
+	border: 3px solid #FF8303;
+	border-radius: 33px;
+	margin:5px;
+
+}
+
+.service{
+	text-decoration: none;
+	//background-color: yellow;
+	display: flex;
+	float: left;
+	padding: 2px 20px;
+	font-family:sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-transform:capitalize;
+	color: white;
+	font-size: 16px;
+	border: 3px solid #FF8303;
+	border-radius: 33px;
+	margin:5px;
+
+}
+
+.contact{
+	text-decoration: none;
+	//background-color: yellow;
+	display: flex;
+	float: left;
+	padding: 2px 20px;
+	font-family:sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-transform:capitalize;
+	color: white;
+	font-size: 16px;
+	border: 3px solid #FF8303;
+	border-radius: 33px;
+	margin:5px;
+
+}
+
+.support{
+	text-decoration: none;
+	//background-color: yellow;
+	display: flex;
+	float: left;
+	padding: 2px 20px;
+	font-family:sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-transform:capitalize;
+	color: white;
+	font-size: 16px;
+	border: 3px solid #FF8303;
+	border-radius: 33px;
+	margin:5px;
+
+}
+
+.login{
+	text-decoration: none;
+	//background-color: yellow;
+	display: flex;
+	float: left;
+	padding: 2px 20px;
+	font-family:sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-transform:capitalize;
+	color: white;
+	font-size: 16px;
+	border: 2px solid #FF8303;
+	border-radius: 33px;
+	margin:5px;
+
+}
+.register{
+	text-decoration: none;
+	//background-color: yellow;
+	display: flex;
+	float: left;
+	padding: 2px 20px;
+	font-family:sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-transform:capitalize;
+	color: white;
+	font-size: 16px;
+	border: 2px solid #FF8303;
+	border-radius: 33px;
+	margin:5px;
+
+}
+
+#photo{
+	height: 500px;
+	width:auto;
+	max-width: 1100px;
+	background-color: #FF8303;
+	margin: 30px;
+	margin-left: 200px;
+	background-image: url( https://s02.sgp1.cdn.digitaloceanspaces.com/article/141092-gaolcsuwfv-1589031868.jpeg);
+	background-repeat: no-repeat;
+	background-size: 1100px 500px;
+	animation: slide 25s infinite;
+	animation-direction: reverse;
+}
+@keyframes slide{
+	25%{
+		background-image: url(https://images.hasgeek.com/embed/file/20a4a8ab4e3d4b0f87a589b22d10c076 );
+	}
+	50%{
+		background-image: url( https://pbs.twimg.com/media/EVYXMaWUcAE2ASE.jpg);
+	}
+	75%{
+		background-image: url(https://assets.sentinelassam.com/h-upload/2020/10/09/165097-jan.webp?w=400&dpr=2.6  );
+	}
+	100%{
+		background-image: url( https://s02.sgp1.cdn.digitaloceanspaces.com/article/141092-gaolcsuwfv-1589031868.jpeg);
+	}
+
+}
+#aware{
+	height: 55px;
+	width: 295px;
+	padding:5px 5px;
+	background-color:#187bcd; 
+	margin: 7px;
+	font-size: 40px;
+	margin-left: 650px;
+	color:white;
+	text-align: center;
+	border:2px solid black;
+	border-radius: 20px;
+	margin-bottom: 25px;
+
+}
+
+#p1 ul li{
+	//background-color:red;
+	color: #187bcd;
+	margin:5px;
+	padding:5px;
+	margin-top: 1px;
+	margin-left:50px;
+	font-size: 30px;
+}
+
+#p1 ul{
+	list-style: none;
+}
+
+#p1 ul li:before {
+		 content: "\00BB";
+		 color: #FF8303;
+}
+
+#p1 ul p{
+	padding: 5px;
+	font-family:sans-serif;
+	font-weight: 200;
+	font-style: italic;
+	font-size:20px;
+	margin: 5px;
+	margin-left: 158px;
+	line-height:1.8;
+	letter-spacing: 1;
+	margin-right: 40px;
+}
+
+#p1img{
+	background-image:url(https://www.clinicone.com.np/wp-content/uploads/2020/03/blog-corona-1.jpg); 
+	height: 550px;
+	width: 1260px;
+	background-size:1260px 555px; 
+	background-color: #FF8303;
+	background-repeat:no-repeat; 
+	margin: 10px;
+	margin-left: 170px;
+	border:2px solid black;
+	border-radius: 30px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#footer{
+	margin-top: 5px;
+	background-color:#187bcd;
+	padding:3px; 
+	font-size: 18px;
+	color: white;
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+    word-spacing: 1.5px;
+	letter-spacing: 1.5px;
+	font-style: italic;
+	border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
